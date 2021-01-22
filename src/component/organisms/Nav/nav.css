@@ -1,0 +1,23 @@
+.brand {
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.nav-container {
+	display: flex;
+	background-color: #393b44;
+	color: #f1f3f8;
+	padding: 0 7%;
+	border-radius: 0 0 2px px;
+}
+
+.nav {
+	margin-top: 2.5%;
+	margin-left: auto;
+}
+
+@media (max-width: 600px) {
+	.nav {
+		margin-top: 5%;
+	}
+}

@@ -1,0 +1,13 @@
+button {
+	background-color: #494c58;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+	color: #d6e0f0;
+	outline: none;
+	cursor: pointer;
+}
+
+button:hover {
+	opacity: 0.5;
+}

@@ -1,0 +1,25 @@
+.contact-quotes {
+	width: 36%;
+	padding: 10% 10% 0;
+	letter-spacing: 1px;
+}
+
+.contact-section {
+	display: flex;
+	padding: 10% 7%;
+}
+
+.chat-icon {
+	width: 40%;
+}
+
+@media (max-width: 600px) {
+	.contact-section {
+		flex-direction: column;
+	}
+	.chat-icon,
+	.contact-quotes {
+		margin: auto;
+		text-align: center;
+	}
+}

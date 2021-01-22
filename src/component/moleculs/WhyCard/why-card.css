@@ -1,0 +1,28 @@
+.icon-container {
+	display: flex;
+	width: 50%;
+	margin-bottom: 5%;
+}
+
+.why-icon {
+	border: solid 5px #d6e0f0;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.why-quotes-container {
+	margin-left: 30px;
+	letter-spacing: 1px;
+}
+
+.why-quotes-container p {
+	line-height: 1.6;
+}
+
+@media (max-width: 980px) {
+	.icon-container {
+		margin: auto;
+		width: 80%;
+		margin-bottom: 5%;
+	}
+}

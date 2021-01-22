@@ -1,0 +1,45 @@
+.about-section {
+	display: flex;
+	padding: 5% 7%;
+}
+
+.about-quotes {
+	width: 40%;
+	text-align: justify;
+	margin-right: 10%;
+	letter-spacing: 1px;
+	padding: 6% 0;
+}
+.about-quotes p {
+	text-indent: 40px;
+	line-height: 1.6;
+}
+
+.about-illus {
+	width: 50%;
+	padding: 30px;
+}
+
+.mobil-illus {
+	width: 100%;
+}
+
+@media (max-width: 900px) {
+	.about-illus {
+		margin-top: 10%;
+		width: 40%;
+	}
+}
+
+@media (max-width: 900px) {
+	.about-illus {
+		display: none;
+	}
+	.about-quotes {
+		width: 100%;
+		text-align: justify;
+		margin-right: 10%;
+		letter-spacing: 1px;
+		padding: 6% 0;
+	}
+}
